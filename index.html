@@ -4,6 +4,13 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+        <!-- Latest compiled JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
         <title>Spotify - Your favourite music is here</title>
         <link rel="stylesheet" href="style.css">
         </head>
@@ -15,20 +22,212 @@
             <li>About</li>
         </ul>
     </nav>
-
-    <div class="container">
-        <div class="songList">
-            <h1>Best of NCS - No Copyright Sounds</h1>
-            <div class="songItemContainer">
-                <div class="songItem">
-                    <img alt="1">
-                    <span class="songName">Let me Love You</span>
-                    <span class="songlistplay"><span class="timestamp">05:34 <i id="0" class="far songItemPlay fa-play-circle"></i> </span></span>
+    <div class="img">
+        <div class="mycontainer">
+    <!-- <div class="container"> -->
+        <div class="div1">
+        <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="background:('bg.png')">
+                <!-- <img src="bg.jpg" > -->
+                <!-- onClick="javascript:close_clip() -->
+              Bollywood Songs
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">                
+                <a class="dropdown-item" href="#">Another action <i id="0" class="far songItemPlay fa-play-circle"></i></a><br>
+              <a class="dropdown-item" href="#">Another action <i id="1" class="far songItemPlay fa-play-circle"></i></a><br>
+              <a class="dropdown-item" href="#">Something else here <i id="2" class="far songItemPlay fa-play-circle"></i></a><br>
+              <a class="dropdown-item" href="#">Something else here <i id="3" class="far songItemPlay fa-play-circle"></i></a><br>
+              <a class="dropdown-item" href="#">Something else here <i id="4" class="far songItemPlay fa-play-circle"></i></a><br>
+              <a class="dropdown-item" href="#">Something else here <i id="5" class="far songItemPlay fa-play-circle"></i></a><br>
+              <a class="dropdown-item" href="#">Something else here <i id="6" class="far songItemPlay fa-play-circle"></i></a><br>
+              <a class="dropdown-item" href="#">Something else here <i id="7" class="far songItemPlay fa-play-circle"></i></a><br>
+              <a class="dropdown-item" href="#">Something else here <i id="8" class="far songItemPlay fa-play-circle"></i></a><br>
+              <a class="dropdown-item" href="#">Something else here <i id="9" class="far songItemPlay fa-play-circle"></i></a><br>
+            </div>
+            </div>
+            <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" >
+                  English Songs
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">                
+                    <a class="dropdown-item" href="#">Another action <i id="0" class="far songItemPlay fa-play-circle"></i></a><br>
+                  <a class="dropdown-item" href="#">Another action <i id="1" class="far songItemPlay fa-play-circle"></i></a><br>
+                  <a class="dropdown-item" href="#">Something else here <i id="2" class="far songItemPlay fa-play-circle"></i></a><br>
+                  <a class="dropdown-item" href="#">Something else here <i id="3" class="far songItemPlay fa-play-circle"></i></a><br>
+                  <a class="dropdown-item" href="#">Something else here <i id="4" class="far songItemPlay fa-play-circle"></i></a><br>
+                  <a class="dropdown-item" href="#">Something else here <i id="5" class="far songItemPlay fa-play-circle"></i></a><br>
+                  <a class="dropdown-item" href="#">Something else here <i id="6" class="far songItemPlay fa-play-circle"></i></a><br>
+                  <a class="dropdown-item" href="#">Something else here <i id="7" class="far songItemPlay fa-play-circle"></i></a><br>
+                  <a class="dropdown-item" href="#">Something else here <i id="8" class="far songItemPlay fa-play-circle"></i></a><br>
+                  <a class="dropdown-item" href="#">Something else here <i id="9" class="far songItemPlay fa-play-circle"></i></a><br>
                 </div>
+                </div>
+                <div class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" >
+                      Punjabi Songs
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton"> 
+                        <div class="songlist">               
+                        <a class="dropdown-item" href="#">Another action <i id="0" class="far songItemPlay fa-play-circle"></i></a><br>
+                        </div>
+                      <a class="dropdown-item" href="#">Another action <i id="1" class="far songItemPlay fa-play-circle"></i></a><br>
+                      <a class="dropdown-item" href="#">Something else here <i id="2" class="far songItemPlay fa-play-circle"></i></a><br>
+                      <a class="dropdown-item" href="#">Something else here <i id="3" class="far songItemPlay fa-play-circle"></i></a><br>
+                      <a class="dropdown-item" href="#">Something else here <i id="4" class="far songItemPlay fa-play-circle"></i></a><br>
+                      <a class="dropdown-item" href="#">Something else here <i id="5" class="far songItemPlay fa-play-circle"></i></a><br>
+                      <a class="dropdown-item" href="#">Something else here <i id="6" class="far songItemPlay fa-play-circle"></i></a><br>
+                      <a class="dropdown-item" href="#">Something else here <i id="7" class="far songItemPlay fa-play-circle"></i></a><br>
+                      <a class="dropdown-item" href="#">Something else here <i id="8" class="far songItemPlay fa-play-circle"></i></a><br>
+                      <a class="dropdown-item" href="#">Something else here <i id="9" class="far songItemPlay fa-play-circle"></i></a><br>
+                    </div>
+                    </div>
+                    <div class="dropdown">
+                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" >
+                          Haryanvi Songs
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">                
+                            <a class="dropdown-item" href="#">Another action <i id="0" class="far songItemPlay fa-play-circle"></i></a><br>
+                          <a class="dropdown-item" href="#">Another action <i id="1" class="far songItemPlay fa-play-circle"></i></a><br>
+                          <a class="dropdown-item" href="#">Something else here <i id="2" class="far songItemPlay fa-play-circle"></i></a><br>
+                          <a class="dropdown-item" href="#">Something else here <i id="3" class="far songItemPlay fa-play-circle"></i></a><br>
+                          <a class="dropdown-item" href="#">Something else here <i id="4" class="far songItemPlay fa-play-circle"></i></a><br>
+                          <a class="dropdown-item" href="#">Something else here <i id="5" class="far songItemPlay fa-play-circle"></i></a><br>
+                          <a class="dropdown-item" href="#">Something else here <i id="6" class="far songItemPlay fa-play-circle"></i></a><br>
+                          <a class="dropdown-item" href="#">Something else here <i id="7" class="far songItemPlay fa-play-circle"></i></a><br>
+                          <a class="dropdown-item" href="#">Something else here <i id="8" class="far songItemPlay fa-play-circle"></i></a><br>
+                          <a class="dropdown-item" href="#">Something else here <i id="9" class="far songItemPlay fa-play-circle"></i></a><br>
+                        </div>
+                        </div>
+                        <div class="dropdown">
+                            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" >
+                              South mix Hits
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">                
+                                <a class="dropdown-item" href="#">Another action <i id="0" class="far songItemPlay fa-play-circle"></i></a><br>
+                              <a class="dropdown-item" href="#">Another action <i id="1" class="far songItemPlay fa-play-circle"></i></a><br>
+                              <a class="dropdown-item" href="#">Something else here <i id="2" class="far songItemPlay fa-play-circle"></i></a><br>
+                              <a class="dropdown-item" href="#">Something else here <i id="3" class="far songItemPlay fa-play-circle"></i></a><br>
+                              <a class="dropdown-item" href="#">Something else here <i id="4" class="far songItemPlay fa-play-circle"></i></a><br>
+                              <a class="dropdown-item" href="#">Something else here <i id="5" class="far songItemPlay fa-play-circle"></i></a><br>
+                              <a class="dropdown-item" href="#">Something else here <i id="6" class="far songItemPlay fa-play-circle"></i></a><br>
+                              <a class="dropdown-item" href="#">Something else here <i id="7" class="far songItemPlay fa-play-circle"></i></a><br>
+                              <a class="dropdown-item" href="#">Something else here <i id="8" class="far songItemPlay fa-play-circle"></i></a><br>
+                              <a class="dropdown-item" href="#">Something else here <i id="9" class="far songItemPlay fa-play-circle"></i></a><br>
+                            </div>
+                            </div>
+            </div>
+           <!-- </div> -->
+        </div>
+        <div class="mycontainer">
+           <div class="div2">
+            <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" >
+                  Romantic Songs
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">                
+                    <a class="dropdown-item" href="#">Another action <i id="0" class="far songItemPlay fa-play-circle"></i></a><br>
+                  <a class="dropdown-item" href="#">Another action <i id="1" class="far songItemPlay fa-play-circle"></i></a><br>
+                  <a class="dropdown-item" href="#">Something else here <i id="2" class="far songItemPlay fa-play-circle"></i></a><br>
+                  <a class="dropdown-item" href="#">Something else here <i id="3" class="far songItemPlay fa-play-circle"></i></a><br>
+                  <a class="dropdown-item" href="#">Something else here <i id="4" class="far songItemPlay fa-play-circle"></i></a><br>
+                  <a class="dropdown-item" href="#">Something else here <i id="5" class="far songItemPlay fa-play-circle"></i></a><br>
+                  <a class="dropdown-item" href="#">Something else here <i id="6" class="far songItemPlay fa-play-circle"></i></a><br>
+                  <a class="dropdown-item" href="#">Something else here <i id="7" class="far songItemPlay fa-play-circle"></i></a><br>
+                  <a class="dropdown-item" href="#">Something else here <i id="8" class="far songItemPlay fa-play-circle"></i></a><br>
+                  <a class="dropdown-item" href="#">Something else here <i id="9" class="far songItemPlay fa-play-circle"></i></a><br>
+                </div>
+                </div>
+                <div class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" >
+                      Motivational Hits
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">                
+                        <a class="dropdown-item" href="#">Another action <i id="0" class="far songItemPlay fa-play-circle"></i></a><br>
+                      <a class="dropdown-item" href="#">Another action <i id="1" class="far songItemPlay fa-play-circle"></i></a><br>
+                      <a class="dropdown-item" href="#">Something else here <i id="2" class="far songItemPlay fa-play-circle"></i></a><br>
+                      <a class="dropdown-item" href="#">Something else here <i id="3" class="far songItemPlay fa-play-circle"></i></a><br>
+                      <a class="dropdown-item" href="#">Something else here <i id="4" class="far songItemPlay fa-play-circle"></i></a><br>
+                      <a class="dropdown-item" href="#">Something else here <i id="5" class="far songItemPlay fa-play-circle"></i></a><br>
+                      <a class="dropdown-item" href="#">Something else here <i id="6" class="far songItemPlay fa-play-circle"></i></a><br>
+                      <a class="dropdown-item" href="#">Something else here <i id="7" class="far songItemPlay fa-play-circle"></i></a><br>
+                      <a class="dropdown-item" href="#">Something else here <i id="8" class="far songItemPlay fa-play-circle"></i></a><br>
+                      <a class="dropdown-item" href="#">Something else here <i id="9" class="far songItemPlay fa-play-circle"></i></a><br>
+                    </div>
+                    </div>
+                    <div class="dropdown">
+                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" >
+                          Devotional Songs
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton"> 
+                            <div class="songlist">               
+                            <a class="dropdown-item" href="#">Another action <i id="0" class="far songItemPlay fa-play-circle"></i></a><br>
+                            </div>
+                          <a class="dropdown-item" href="#">Another action <i id="1" class="far songItemPlay fa-play-circle"></i></a><br>
+                          <a class="dropdown-item" href="#">Something else here <i id="2" class="far songItemPlay fa-play-circle"></i></a><br>
+                          <a class="dropdown-item" href="#">Something else here <i id="3" class="far songItemPlay fa-play-circle"></i></a><br>
+                          <a class="dropdown-item" href="#">Something else here <i id="4" class="far songItemPlay fa-play-circle"></i></a><br>
+                          <a class="dropdown-item" href="#">Something else here <i id="5" class="far songItemPlay fa-play-circle"></i></a><br>
+                          <a class="dropdown-item" href="#">Something else here <i id="6" class="far songItemPlay fa-play-circle"></i></a><br>
+                          <a class="dropdown-item" href="#">Something else here <i id="7" class="far songItemPlay fa-play-circle"></i></a><br>
+                          <a class="dropdown-item" href="#">Something else here <i id="8" class="far songItemPlay fa-play-circle"></i></a><br>
+                          <a class="dropdown-item" href="#">Something else here <i id="9" class="far songItemPlay fa-play-circle"></i></a><br>
+                        </div>
+                        </div>
+                        <div class="dropdown">
+                            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" >
+                              Mood Freshner
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">                
+                                <a class="dropdown-item" href="#">Another action <i id="0" class="far songItemPlay fa-play-circle"></i></a><br>
+                              <a class="dropdown-item" href="#">Another action <i id="1" class="far songItemPlay fa-play-circle"></i></a><br>
+                              <a class="dropdown-item" href="#">Something else here <i id="2" class="far songItemPlay fa-play-circle"></i></a><br>
+                              <a class="dropdown-item" href="#">Something else here <i id="3" class="far songItemPlay fa-play-circle"></i></a><br>
+                              <a class="dropdown-item" href="#">Something else here <i id="4" class="far songItemPlay fa-play-circle"></i></a><br>
+                              <a class="dropdown-item" href="#">Something else here <i id="5" class="far songItemPlay fa-play-circle"></i></a><br>
+                              <a class="dropdown-item" href="#">Something else here <i id="6" class="far songItemPlay fa-play-circle"></i></a><br>
+                              <a class="dropdown-item" href="#">Something else here <i id="7" class="far songItemPlay fa-play-circle"></i></a><br>
+                              <a class="dropdown-item" href="#">Something else here <i id="8" class="far songItemPlay fa-play-circle"></i></a><br>
+                              <a class="dropdown-item" href="#">Something else here <i id="9" class="far songItemPlay fa-play-circle"></i></a><br>
+                            </div>
+                            </div>
+                            <div class="dropdown">
+                                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" >
+                                  New Releases
+                                </button>
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">                
+                                    <a class="dropdown-item" href="#">Another action <i id="0" class="far songItemPlay fa-play-circle"></i></a><br>
+                                  <a class="dropdown-item" href="#">Another action <i id="1" class="far songItemPlay fa-play-circle"></i></a><br>
+                                  <a class="dropdown-item" href="#">Something else here <i id="2" class="far songItemPlay fa-play-circle"></i></a><br>
+                                  <a class="dropdown-item" href="#">Something else here <i id="3" class="far songItemPlay fa-play-circle"></i></a><br>
+                                  <a class="dropdown-item" href="#">Something else here <i id="4" class="far songItemPlay fa-play-circle"></i></a><br>
+                                  <a class="dropdown-item" href="#">Something else here <i id="5" class="far songItemPlay fa-play-circle"></i></a><br>
+                                  <a class="dropdown-item" href="#">Something else here <i id="6" class="far songItemPlay fa-play-circle"></i></a><br>
+                                  <a class="dropdown-item" href="#">Something else here <i id="7" class="far songItemPlay fa-play-circle"></i></a><br>
+                                  <a class="dropdown-item" href="#">Something else here <i id="8" class="far songItemPlay fa-play-circle"></i></a><br>
+                                  <a class="dropdown-item" href="#">Something else here <i id="9" class="far songItemPlay fa-play-circle"></i></a><br>
+                                </div>
+                                </div> 
+                            </div>
+                            </div>
+                            <!-- </div> -->
+                <!-- // </div> -->
+
+            <!-- <select id="nativelangdrop" >
+                <option value="1" class="listitem">Language 1 <i id="0" class="far songItemPlay fa-play-circle"></i></option>
+                <option value="1" class="listitem">Language 1</option>
+                <option value="1" class="listitem">Language 1</option>
+                <option value="1" class="listitem">Language 1</option>
+            </select>
+            <span id="additional"></span>
+            <hr />
+            <input id="addBtn" type="button" value=" + " /> -->
+          <!-- </div>
                 <div class="songItem">
                     <img alt="1">
                     <span class="songName">Let me Love You</span>
-                    <span class="songlistplay"><span class="timestamp">05:34 <i id="1" class="far songItemPlay fa-play-circle"></i> </span></span>
+                    <audio controls>
+                        <source src="1.mp3" type="1/mpeg">
+                    </audio>
                 </div>
                 <div class="songItem">
                     <img alt="1">
@@ -73,7 +272,7 @@
             </div>
         </div>
         <div class="songBanner"></div>
-    </div>
+    </div> -->
 
     <div class="bottom">
         <input type="range" name="range" id="myProgressBar" min="0" value="0" max="100">
