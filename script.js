@@ -19,7 +19,24 @@ let songs = [
     {songName: "Sakhiyaan - Salam-e-Ishq", filePath: "songs/2.mp3", coverPath: "covers/7.jpg"},
     {songName: "Bhula Dena - Salam-e-Ishq", filePath: "songs/2.mp3", coverPath: "covers/8.jpg"},
     {songName: "Tumhari Kasam - Salam-e-Ishq", filePath: "songs/2.mp3", coverPath: "covers/9.jpg"},
-    {songName: "Na Jaana - Salam-e-Ishq", filePath: "songs/4.mp3", coverPath: "covers/10.jpg"},
+    {songName: "Na Jaana - Salam-e-Ishq", filePath: "songs/4.mp3", coverPath: "covers/1.jpg"},
+    {songName: "Aaye Haaye - Time To Dance", filePath: "songs/11.mp3", coverPath: "covers/2.jpg"},
+    {songName: "Quismat 2 - B Praak", filePath: "songs/12.mp3", coverPath: "covers/3.jpg"},
+    {songName: "Khono Dardi- Dilpreet Sambhi", filePath: "songs/13.mp3", coverPath: "covers/4.jpg"},
+    {songName: "Masla - Gurnaam Bullar", filePath: "songs/14.mp3", coverPath: "covers/5.jpg"},
+    {songName: "Starbuck", filePath: "songs/15.mp3", coverPath: "covers/6.jpg"},
+    {songName: "Surma", filePath: "songs/16.mp3", coverPath: "covers/7.jpg"},
+    {songName: "Aadiyille-sethi-solli", filePath: "songs/17.mp3", coverPath: "covers/8.jpg"},
+    {songName: "Aanandha yazai", filePath: "songs/18.mp3", coverPath: "covers/9.jpg"},
+    {songName: "chinna-chiriya", filePath: "songs/19.mp3", coverPath: "covers/1.jpg"},
+    {songName: "En_vetula-gaana-vala", filePath: "songs/20.mp3", coverPath: "covers/2.jpg"},
+    {songName: "kaathiruthai", filePath: "songs/21.mp3", coverPath: "covers/3.jpg"},
+    {songName: "Dil Galti Kar Baitha Hai", filePath: "songs/22.mp3", coverPath: "covers/2.jpg"},
+    {songName: "Bepanah Ishq", filePath: "songs/23.mp3", coverPath: "covers/3.jpg"},
+    {songName: "Chura Liya", filePath: "songs/24.mp3", coverPath: "covers/4.jpg"},
+    {songName: "Habit", filePath: "songs/25.mp3", coverPath: "covers/5.jpg"},
+    {songName: "Kaanta Laga", filePath: "songs/26.mp3", coverPath: "covers/2.jpg"},
+    
 ]
 
 songItems.forEach((element, i)=>{ 
@@ -78,7 +95,7 @@ Array.from(document.getElementsByClassName('songItemPlay')).forEach((element)=>{
 })
 
 document.getElementById('next').addEventListener('click', ()=>{
-    if(songIndex>=9){
+    if(songIndex>=50){
         songIndex = 0
     }
     else{
@@ -107,3 +124,47 @@ document.getElementById('previous').addEventListener('click', ()=>{
     masterPlay.classList.remove('fa-play-circle');
     masterPlay.classList.add('fa-pause-circle');
 })
+
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
+var coll = document.getElementsByClassName("collapsible2");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
+
+var coll = document.getElementsByClassName("collapsible3");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}

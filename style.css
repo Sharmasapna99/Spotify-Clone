@@ -1,7 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
 body{
-    background-color: antiquewhite;
+    /* background-color: antiquewhite; */
+    background-image: url("covers/background1.jpg");
+    
+    
 }
 
 *{
@@ -52,9 +55,9 @@ nav ul li{
 }
 
 .bottom{
-    position: sticky;
+    /* position: sticky; */
     bottom: 0;
-    height: 130px;
+    height: 110px;
     background-color: black;
     color: white;
     display: flex;
@@ -128,19 +131,23 @@ nav ul li{
 #dropdownMenuButton{
     color: black;
     background-color: green;
-    width:50px 50px;
-    margin:20px;
+    /* width:80%; */
+    margin:5px;
+    
+    padding:5px;
     text-align: center;
-    padding:50px;
 }
-.div1{
+.dropdown{
+    width: max-content;
+}
+/* .div1{
     display: flex;
     align-items: flex-start;
 }
 .div2{
     display: flex;
     align-items: flex-end;
-}
+} */
 .img{
     background-image: url('bg.jpg');
     height:350px;
@@ -151,3 +158,42 @@ nav ul li{
 img{
     width:50px;
 }
+.dropdown{
+    align-items:flex-start;
+
+}
+.mycontainer{
+    align-items: flex-start;
+}
+
+/* Style the button that is used to open and close the collapsible content */
+.collapsible, .collapsible2, .collapsible3 {
+    background-color: rgb(231, 228, 240);
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    margin:10px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+     
+    
+  }
+  
+  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+  .active, .collapsible:hover, .collapsible2:hover {
+    background-color: #ccc;
+  }
+  
+  /* Style the collapsible content. Note: hidden by default */
+  .content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #f1f1f1;
+  }
