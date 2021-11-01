@@ -28,6 +28,13 @@ nav ul{
 nav ul li{
     padding: 0 12px;
 }
+nav ul li a{
+    padding: 0 12px;
+    color:white;
+}
+nav ul li a:hover{
+    color:rgb(16, 165, 16);
+}
 .brand img{
     width: 44px;
     padding: 0 8px;
